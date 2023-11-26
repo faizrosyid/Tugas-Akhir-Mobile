@@ -40,10 +40,16 @@ class _KonversiUangState extends State<KonversiUang> {
             decoration: InputDecoration(
               labelText: 'Masukkan Nominal',
               border: OutlineInputBorder(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                borderRadius: BorderRadius.circular(15.0), // Menambahkan border radius
               ),
             ),
+            onChanged: (value) {
+              setState(() {
+                amount = double.parse(value);
+              });
+            },
           ),
+
           const SizedBox(height: 16.0),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -102,9 +108,9 @@ class _KonversiUangState extends State<KonversiUang> {
                 context: context,
                 builder: (BuildContext context) {
                   return AlertDialog(
-                    title: const Text('Hasil Konversi'),
+                    title: Center(child: const Text('Hasil Konversi', style: TextStyle(fontWeight: FontWeight.w400),)),
                     content: Text(
-                        'Rp$formattedAmount adalah $formattedResult $selectedCurrency'),
+                        'Rp$formattedAmount adalah $formattedResult $selectedCurrency', style: TextStyle(fontSize: 18),),
                     actions: [
                       TextButton(
                         onPressed: () {
@@ -118,7 +124,7 @@ class _KonversiUangState extends State<KonversiUang> {
               );
             },
             child:
-                const Text('Konversi', style: TextStyle(color: Colors.white)),
+            const Text('Konversi', style: TextStyle(color: Colors.white)),
           ),
         ],
       ),

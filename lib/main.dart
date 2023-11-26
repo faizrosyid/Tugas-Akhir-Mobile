@@ -3,7 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:news/constant/constant.dart';
 import 'package:news/pages/konversi_uang.dart';
 import 'package:news/pages/konversi_waktu.dart';
-import 'package:news/pages/login/login.dart';
+import 'package:news/pages/login.dart';
 import 'package:news/pages/main_menu_with_api.dart';
 import 'package:news/pages/pesan_kesan.dart';
 import 'package:news/pages/profile.dart';
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: [
                     Text(
                       "Welcome, ${widget.username}!",
-                      style: const TextStyle(color: Colors.white, fontSize: 18),
+                      style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w500),
                     ),
                     const SizedBox(
                       width: 15,
@@ -168,7 +168,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ? const ColorFilter.mode(Colors.blue, BlendMode.srcIn)
                           : null,
                     ),
-                    label: 'Main Menu',
+                    label: 'Home',
                     backgroundColor: Colors.white),
                 BottomNavigationBarItem(
                     icon: SvgPicture.asset(

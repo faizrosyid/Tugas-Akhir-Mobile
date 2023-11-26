@@ -1,13 +1,11 @@
 import 'dart:convert';
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:news/main.dart';
+import 'package:news/pages/register.dart';
 import 'package:news/partials/button_login.dart';
 import 'package:news/partials/input_login.dart';
-
-
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -25,7 +23,7 @@ class _LoginState extends State<Login> {
   Future<void> login(String username, String password) async {
     try {
       final response = await post(
-        Uri.parse("#"),
+        Uri.parse("http://192.168.0.205/news/login.php"),
         headers: {
           "Access-Control-Allow-Origin": "*",
         },
@@ -49,7 +47,8 @@ class _LoginState extends State<Login> {
         } else {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(
-              content: Text("Username atau password salah!"),
+              content: Center(child: Text("Username atau password salah!")),
+              backgroundColor: Colors.red,
             ),
           );
         }
@@ -69,7 +68,7 @@ class _LoginState extends State<Login> {
         child: ListView(
           children: [
             const SizedBox(
-              height: 130,
+              height: 100,
             ),
             Column(
               children: [
@@ -81,11 +80,28 @@ class _LoginState extends State<Login> {
                   height: 30,
                 ),
                 const Text(
-                  "Username",
+                  "LOGIN",
                   style: TextStyle(
                       color: Colors.white,
                       fontFamily: 'MontserratSemi',
-                      fontSize: 16),
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(
+                  height: 11,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 49.0),
+                  child: Align(
+                    alignment: Alignment.centerLeft,
+                    child: const Text(
+                      "Username",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'MontserratSemi',
+                          fontSize: 16),
+                    ),
+                  ),
                 ),
                 const SizedBox(
                   height: 10,
@@ -101,17 +117,23 @@ class _LoginState extends State<Login> {
                       border: InputBorder.none),
                 ),
                 const SizedBox(
-                  height: 15,
+                  height: 16,
                 ),
-                const Text(
-                  "Password",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: 'MontserratSemi',
-                      fontSize: 16),
+                Padding(
+                  padding: const EdgeInsets.only(left: 49.0),
+                  child: Align(
+                    alignment: Alignment.centerLeft,
+                    child: const Text(
+                      "Password",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'MontserratSemi',
+                          fontSize: 16),
+                    ),
+                  ),
                 ),
                 const SizedBox(
-                  height: 15,
+                  height: 10,
                 ),
                 InputLogin(
                   controller: passwordController,
@@ -136,10 +158,7 @@ class _LoginState extends State<Login> {
                       border: InputBorder.none),
                 ),
                 const SizedBox(
-                  height: 20,
-                ),
-                const SizedBox(
-                  height: 20,
+                  height: 30,
                 ),
                 ButtonLogin(
                   onpress: () async {
@@ -155,7 +174,27 @@ class _LoginState extends State<Login> {
                   ),
                 ),
                 const SizedBox(
-                  height: 35,
+                  height: 8,
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) =>
+                              Register()), // Ganti Register() dengan halaman register yang sesuai
+                    );
+                  },
+                  child: Text(
+                    'Register',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 15,
+                      decoration: TextDecoration.underline,
+                      decorationColor: Colors.white,
+                      fontFamily: 'MontserratSemi',
+                    ),
+                  ),
                 ),
               ],
             ),

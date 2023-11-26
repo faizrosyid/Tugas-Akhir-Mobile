@@ -78,7 +78,7 @@ class _MainMenuApiState extends State<MainMenuApi> {
                     builder: (context, snapshot) {
                       if (snapshot.hasData) {
                         return ListView.builder(
-                          itemCount: 20,
+                          itemCount: 25,
                           itemBuilder: (context, index) {
                             return beritaPopuler(
                               context,

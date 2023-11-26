@@ -24,10 +24,10 @@ class ButtonLogin extends StatelessWidget {
             backgroundColor: back,
             padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 30),
             shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
             side: BorderSide(color: side, width: 2)),
         child: SizedBox(
-          width: 100,
+          width: 60,
           child: title
         ));
   }
