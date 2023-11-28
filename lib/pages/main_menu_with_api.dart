@@ -4,8 +4,6 @@ import 'package:news/apinews.dart';
 
 
 class MainMenuApi extends StatefulWidget {
-  final String username;
-  const MainMenuApi({Key? key, required this.username});
 
   @override
   State<MainMenuApi> createState() => _MainMenuApiState();

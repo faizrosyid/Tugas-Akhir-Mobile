@@ -25,9 +25,9 @@ class ButtonLogin extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 30),
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-            side: BorderSide(color: side, width: 2)),
+            side: BorderSide(color: Colors.white, width: 2)),
         child: SizedBox(
-          width: 60,
+          width: 65,
           child: title
         ));
   }

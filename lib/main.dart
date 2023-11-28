@@ -31,9 +31,9 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  final String username;
+  final String name;
 
-  const MyHomePage({super.key, required this.username});
+  const MyHomePage({super.key, required this.name});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -54,14 +54,13 @@ class _MyHomePageState extends State<MyHomePage> {
     List<Widget> pages = [
       const KonversiUang(),
       const KonversiWaktu(),
-      MainMenuApi(
-        username: widget.username,
-      ),
+      MainMenuApi(),
       const Profile(),
       const PesanKesan(),
     ];
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: Colors.indigo,
         elevation: 0,
         flexibleSpace: Container(
@@ -82,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Welcome, ${widget.username}!",
+                      "Welcome, ${widget.name}!",
                       style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w500),
                     ),
                     const SizedBox(

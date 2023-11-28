@@ -36,9 +36,11 @@ class _PesanKesanState extends State<PesanKesan> {
                 child: ListView(
                   children: const [
                     ListTile(
-                      title: Text(
-                        "Pesan",
-                        style: TextStyle(fontWeight: FontWeight.bold),
+                      title: Center(
+                        child: Text(
+                          "Pesan",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
                       ),
                       subtitle: Text(
                         "Pelan-pelan pak supir. Besok jangan ngebut lagi ya. Praktikum baru start, yang teori udah setengah jalan. \n#mendingperlahantapipasti",
@@ -46,9 +48,11 @@ class _PesanKesanState extends State<PesanKesan> {
                       ),
                     ),
                     ListTile(
-                      title: Text(
-                        "Kesan",
-                        style: TextStyle(fontWeight: FontWeight.bold),
+                      title: Center(
+                        child: Text(
+                          "Kesan",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
                       ),
                       subtitle: Text(
                         "Pembelajaran yang tidak spaneng. Satu-satunya kelas yang membebaskan mahasiswanya terkait kehadiran, tugas, dan ujian.",

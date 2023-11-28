@@ -36,12 +36,12 @@ class _LoginState extends State<Login> {
       if (context.mounted) {
         if (response.statusCode == 200) {
           final Map<String, dynamic> responseData = jsonDecode(response.body);
-          final String username = responseData['username'];
+          final String name = responseData['name'];
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
                 builder: (context) => MyHomePage(
-                      username: username,
+                      name: name,
                     )),
           );
         } else {
@@ -165,7 +165,7 @@ class _LoginState extends State<Login> {
                     login(usernameController.text, passwordController.text);
                   },
                   fore: Colors.white,
-                  back: Colors.orangeAccent,
+                  back: Colors.pink,
                   side: Colors.grey,
                   title: Text(
                     "Login".toUpperCase(),
