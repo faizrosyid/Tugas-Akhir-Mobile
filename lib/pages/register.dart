@@ -86,7 +86,7 @@ class _RegisterState extends State<Register> {
                               ));
                         },
                         style: OutlinedButton.styleFrom(
-                          side: const BorderSide(color: Colors.white), // Menentukan warna outline (putih)
+                          side: const BorderSide(color: Colors.white),
                         ),
                         child: const Text(
                           "Back",

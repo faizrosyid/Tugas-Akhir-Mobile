@@ -9,21 +9,20 @@ class KonversiWaktu extends StatefulWidget {
 }
 
 class _KonversiWaktuState extends State<KonversiWaktu> {
-  DateTime _selectedTime = DateTime.now().toUtc(); // Menggunakan waktu UTC sebagai acuan
-
+  DateTime _selectedTime = DateTime.now();
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text(
-            "Konversi Waktu",
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+          const Text("Konversi Waktu",
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500)),
+          const SizedBox(
+            height: 20,
           ),
-          const SizedBox(height: 20),
           Text(
-            'Waktu Terpilih: ${DateFormat('HH:mm:ss').format(_selectedTime.toLocal())} WIB',
+            'Waktu Terpilih: ${DateFormat('HH:mm:ss').format(_selectedTime)} WIB',
             style: const TextStyle(fontSize: 18),
           ),
           const SizedBox(height: 20),
@@ -38,7 +37,7 @@ class _KonversiWaktuState extends State<KonversiWaktu> {
               _showTimePicker();
             },
             child: const Text(
-              'Pilih Waktu',
+              'Pilih Waktu (WIB)',
               style: TextStyle(color: Colors.white),
             ),
           ),
@@ -53,7 +52,7 @@ class _KonversiWaktuState extends State<KonversiWaktu> {
     return Column(
       children: [
         _buildConvertedTime('WITA', _selectedTime, const Duration(hours: 8)),
-        _buildConvertedTime('WIT', _selectedTime, const Duration(hours: 7)),
+        _buildConvertedTime('WIT', _selectedTime, const Duration(hours: 9)),
         _buildConvertedTime('London', _selectedTime, const Duration(hours: 0)),
       ],
     );
@@ -61,11 +60,11 @@ class _KonversiWaktuState extends State<KonversiWaktu> {
 
   Widget _buildConvertedTime(
       String label, DateTime originalTime, Duration offset) {
-    DateTime convertedTime = originalTime.add(offset);
+    DateTime convertedTime = originalTime.toUtc().add(offset);
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: Text(
-        '$label: ${DateFormat('HH:mm:ss').format(convertedTime.toLocal())}',
+        '$label: ${DateFormat('HH:mm:ss').format(convertedTime)}',
         style: const TextStyle(fontSize: 18),
       ),
     );
@@ -74,12 +73,12 @@ class _KonversiWaktuState extends State<KonversiWaktu> {
   Future<void> _showTimePicker() async {
     final TimeOfDay? picked = await showTimePicker(
       context: context,
-      initialTime: TimeOfDay.fromDateTime(_selectedTime.toLocal()),
+      initialTime: TimeOfDay.fromDateTime(_selectedTime),
       initialEntryMode: TimePickerEntryMode.inputOnly,
       cancelText: 'Cancel',
     );
 
-    if (picked != null) {
+    if (picked != null && picked != TimeOfDay.fromDateTime(_selectedTime)) {
       setState(() {
         _selectedTime = DateTime(
           _selectedTime.year,
@@ -87,7 +86,7 @@ class _KonversiWaktuState extends State<KonversiWaktu> {
           _selectedTime.day,
           picked.hour,
           picked.minute,
-        ).toUtc();
+        );
       });
     }
   }

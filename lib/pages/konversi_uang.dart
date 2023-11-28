@@ -108,17 +108,52 @@ class _KonversiUangState extends State<KonversiUang> {
                 context: context,
                 builder: (BuildContext context) {
                   return AlertDialog(
-                    title: Center(child: const Text('Hasil Konversi', style: TextStyle(fontWeight: FontWeight.w400),)),
-                    content: Text(
-                        'Rp$formattedAmount adalah $formattedResult $selectedCurrency', style: TextStyle(fontSize: 18),),
-                    actions: [
-                      TextButton(
-                        onPressed: () {
-                          Navigator.of(context).pop();
-                        },
-                        child: const Text('OK'),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
+                    backgroundColor: Colors.transparent, // Atur menjadi transparan agar dapat menampilkan gradasi di dalam container
+                    contentPadding: EdgeInsets.zero,
+                    content: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [Colors.indigo, Colors.deepPurple],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        borderRadius: BorderRadius.circular(15.0),
                       ),
-                    ],
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Text(
+                              "Hasil Konversi",
+                              style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 20, color: Colors.white
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Text(
+                              'Rp$formattedAmount adalah $formattedResult $selectedCurrency',
+                              style: TextStyle(fontSize: 18, color: Colors.white),
+                            ),
+                          ),
+                          ButtonBar(
+                            children: [
+                              TextButton(
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                                child: const Text('OK', style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
                   );
                 },
               );
