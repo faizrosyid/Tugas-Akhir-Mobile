@@ -1,0 +1,325 @@
+[20-Nov-2023 04:43:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function encryptPassword() in /home/ahmahcic/wongselo.com/konversi-zaki/register.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ahmahcic/wongselo.com/konversi-zaki/register.php on line 35
+[20-Nov-2023 04:43:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function encryptPassword() in /home/ahmahcic/wongselo.com/konversi-zaki/register.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ahmahcic/wongselo.com/konversi-zaki/register.php on line 35
+[20-Nov-2023 04:45:22 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/register.php on line 27
+[20-Nov-2023 04:48:13 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 04:48:13 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 04:48:13 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 04:48:13 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 04:48:51 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 04:48:51 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 04:48:51 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 04:48:51 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 04:49:55 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 04:49:55 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 04:49:55 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 04:49:55 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 04:50:22 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 04:50:22 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 04:50:22 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 04:50:22 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 04:50:45 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 04:50:45 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 04:50:45 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 04:50:45 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 04:54:43 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 04:54:43 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 04:54:43 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 04:54:43 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 04:55:06 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 04:55:06 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 04:55:06 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 04:55:06 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 04:55:12 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 04:55:12 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 04:55:12 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 04:55:12 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 04:55:19 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 04:55:19 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 04:55:19 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 04:55:19 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 04:58:26 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:02:35 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:03:03 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:03:04 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:03:49 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:04:01 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 05:04:14 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 05:04:53 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:04:54 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:05:13 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:05:36 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:11:46 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 49
+[20-Nov-2023 05:11:46 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:12:14 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:12:30 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 05:12:39 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:12:41 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:13:06 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:13:56 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:13:58 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:15:56 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 42
+[20-Nov-2023 05:15:56 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 43
+[20-Nov-2023 05:15:56 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:15:57 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:16:03 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:17:12 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:37:05 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:38:19 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 05:38:21 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 05:39:08 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 05:40:24 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 51
+[20-Nov-2023 05:40:24 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 05:40:26 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 51
+[20-Nov-2023 05:40:26 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 05:40:42 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 51
+[20-Nov-2023 05:40:42 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 05:41:50 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 56
+[20-Nov-2023 05:41:50 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 25
+[20-Nov-2023 05:42:25 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 55
+[20-Nov-2023 05:42:25 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 24
+[20-Nov-2023 05:42:27 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 55
+[20-Nov-2023 05:42:27 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 24
+[20-Nov-2023 05:43:16 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 54
+[20-Nov-2023 05:43:16 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 05:43:18 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 54
+[20-Nov-2023 05:43:18 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 05:44:25 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 52
+[20-Nov-2023 05:44:25 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:44:26 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 52
+[20-Nov-2023 05:44:26 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:45:03 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 49
+[20-Nov-2023 05:45:03 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:45:19 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 49
+[20-Nov-2023 05:45:19 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 18
+[20-Nov-2023 05:45:34 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 49
+[20-Nov-2023 05:45:36 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 49
+[20-Nov-2023 05:45:55 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 49
+[20-Nov-2023 05:45:55 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:46:25 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 49
+[20-Nov-2023 05:46:25 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:48:20 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 43
+[20-Nov-2023 05:48:20 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 44
+[20-Nov-2023 05:48:20 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 49
+[20-Nov-2023 05:48:20 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:48:48 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 43
+[20-Nov-2023 05:48:48 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 44
+[20-Nov-2023 05:48:48 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 49
+[20-Nov-2023 05:48:48 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:51:10 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 67
+[20-Nov-2023 05:51:10 America/New_York] PHP Notice:  Undefined variable: stmt in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 20
+[20-Nov-2023 05:53:00 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 58
+[20-Nov-2023 05:53:00 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 19
+[20-Nov-2023 05:53:01 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 58
+[20-Nov-2023 05:53:01 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 19
+[20-Nov-2023 05:55:02 America/New_York] PHP Notice:  Undefined variable: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 50
+[20-Nov-2023 05:55:02 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:56:49 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:56:51 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:57:22 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:58:37 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 05:58:53 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 05:59:15 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 05:59:17 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 05:59:18 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 05:59:34 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 06:00:03 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 06:02:30 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 46
+[20-Nov-2023 06:02:30 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 47
+[20-Nov-2023 06:02:30 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:06 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:17 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:18 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:19 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:20 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:21 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:22 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:23 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:23 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:24 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:29:25 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:33:40 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:36:46 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:36:47 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:36:48 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:36:58 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:38:36 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:38:44 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:38:46 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:39:28 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:39:30 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:40:15 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 33
+[20-Nov-2023 07:40:18 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 33
+[20-Nov-2023 07:40:37 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 15
+[20-Nov-2023 07:42:34 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:42:36 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:42:55 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 07:43:06 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:46:33 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:46:35 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:47:24 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 07:47:37 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 07:48:15 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:48:49 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:48:50 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:49:03 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 07:50:39 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:50:39 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 07:50:42 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:50:42 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 07:51:30 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:51:30 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 07:51:31 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:51:31 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 07:53:19 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:53:19 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 07:53:22 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:53:22 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 07:56:09 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:56:09 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 07:56:36 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 07:56:38 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:00:57 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:00:57 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 08:00:58 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:00:58 America/New_York] PHP Notice:  Undefined variable: storedPassword in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 21
+[20-Nov-2023 08:01:57 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:05:49 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:05:56 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:05:58 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:07:34 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:07:40 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:08:07 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:08:08 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:09:26 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:09:26 America/New_York] PHP Notice:  Undefined variable: GlGsb7Ma in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 18
+[20-Nov-2023 08:09:31 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:09:31 America/New_York] PHP Notice:  Undefined variable: GlGsb7Ma in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 18
+[20-Nov-2023 08:09:53 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:10:21 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 08:11:35 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 08:13:04 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 18
+[20-Nov-2023 08:13:21 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 18
+[20-Nov-2023 08:13:33 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 18
+[20-Nov-2023 08:13:50 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 18
+[20-Nov-2023 08:20:28 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 18
+[20-Nov-2023 08:29:56 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 20
+[20-Nov-2023 08:31:20 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 20
+[20-Nov-2023 08:32:54 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 08:32:54 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:32:54 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 20
+[20-Nov-2023 08:32:54 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 08:33:17 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 08:33:17 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:33:17 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 20
+[20-Nov-2023 08:33:17 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 08:33:33 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 08:33:33 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:33:33 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 20
+[20-Nov-2023 08:33:33 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 08:39:05 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 08:39:07 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 13
+[20-Nov-2023 08:41:01 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 08:41:03 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 08:41:13 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 12
+[20-Nov-2023 08:47:07 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/ahmahcic/wongselo.com/konversi-zaki/login.php:11
+Stack trace:
+#0 /home/ahmahcic/wongselo.com/konversi-zaki/login.php(25): login(Object(mysqli), 'muzaki', 'muzaki')
+#1 {main}
+  thrown in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 08:48:03 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/ahmahcic/wongselo.com/konversi-zaki/login.php:11
+Stack trace:
+#0 /home/ahmahcic/wongselo.com/konversi-zaki/login.php(72): login(Object(mysqli), 'muzaki', 'muzaki')
+#1 {main}
+  thrown in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 08:48:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/ahmahcic/wongselo.com/konversi-zaki/login.php:11
+Stack trace:
+#0 /home/ahmahcic/wongselo.com/konversi-zaki/login.php(72): login(Object(mysqli), 'muzaki', 'muzaki')
+#1 {main}
+  thrown in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 08:48:31 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 16
+[20-Nov-2023 08:51:04 America/New_York] PHP Warning:  require_once(koneksi_mariadb.php): failed to open stream: No such file or directory in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 3
+[20-Nov-2023 08:51:04 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'koneksi_mariadb.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 3
+[20-Nov-2023 08:51:06 America/New_York] PHP Warning:  require_once(koneksi_mariadb.php): failed to open stream: No such file or directory in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 3
+[20-Nov-2023 08:51:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'koneksi_mariadb.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 3
+[20-Nov-2023 08:52:04 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 08:52:05 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 08:53:32 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 08:53:34 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 08:54:01 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 08:56:05 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 08:56:07 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 08:56:08 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 08:56:09 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 08:58:02 America/New_York] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 11
+[20-Nov-2023 09:03:08 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 09:03:10 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 09:23:01 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 61
+[20-Nov-2023 09:23:01 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 62
+[20-Nov-2023 09:23:01 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 09:29:58 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 09:30:02 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 61
+[20-Nov-2023 09:30:02 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 62
+[20-Nov-2023 09:30:02 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 09:36:07 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 63
+[20-Nov-2023 09:36:07 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 64
+[20-Nov-2023 09:36:07 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 09:36:10 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 63
+[20-Nov-2023 09:36:10 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 64
+[20-Nov-2023 09:36:10 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 22
+[20-Nov-2023 09:39:16 America/New_York] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 25
+[20-Nov-2023 09:39:18 America/New_York] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 25
+[20-Nov-2023 09:39:26 America/New_York] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 25
+[20-Nov-2023 09:39:39 America/New_York] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 25
+[20-Nov-2023 09:39:40 America/New_York] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 25
+[20-Nov-2023 09:39:41 America/New_York] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 25
+[20-Nov-2023 09:40:09 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 27
+[20-Nov-2023 09:40:12 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 27
+[20-Nov-2023 09:40:13 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 27
+[20-Nov-2023 09:43:18 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 27
+[20-Nov-2023 09:45:05 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 60
+[20-Nov-2023 09:45:07 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 60
+[20-Nov-2023 09:49:21 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 09:49:25 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 09:51:05 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 09:51:44 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 09:51:47 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 23
+[20-Nov-2023 09:57:19 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 09:57:42 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 09:58:11 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 09:58:12 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 09:58:25 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 09:58:26 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 09:59:59 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 10:01:06 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 10:01:07 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 10:01:19 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 10:04:23 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 10:04:25 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 14
+[20-Nov-2023 10:05:51 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:06:06 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:06:07 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:06:59 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:07:52 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:07:56 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:08:27 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:08:41 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:08:42 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:09:38 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:10:04 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:10:06 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:10:33 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:10:34 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:11:23 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:11:26 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:12:29 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 10:12:30 America/New_York] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4294967296 bytes) in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 17
+[20-Nov-2023 19:54:20 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 66
+[20-Nov-2023 19:54:20 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 67
+[20-Nov-2023 20:02:58 America/New_York] PHP Notice:  Undefined index: username in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 66
+[20-Nov-2023 20:02:58 America/New_York] PHP Notice:  Undefined index: password in /home/ahmahcic/wongselo.com/konversi-zaki/login.php on line 67

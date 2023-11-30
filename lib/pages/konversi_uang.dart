@@ -19,6 +19,7 @@ class _KonversiUangState extends State<KonversiUang> {
     'JPY': 0.0095,
     // Tambahkan mata uang lain sesuai kebutuhan
   };
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -27,10 +28,15 @@ class _KonversiUangState extends State<KonversiUang> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
+          const Image(
+            image: AssetImage("assets/images/money.png"),
+            height: 150,
+          ),
+          const SizedBox(height: 40),
           const Text(
             'Konversi Uang',
             style: TextStyle(
-              fontSize: 20.0,
+              fontSize: 25.0,
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -40,7 +46,8 @@ class _KonversiUangState extends State<KonversiUang> {
             decoration: InputDecoration(
               labelText: 'Masukkan Nominal',
               border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(15.0), // Menambahkan border radius
+                borderRadius:
+                    BorderRadius.circular(15.0), // Menambahkan border radius
               ),
             ),
             onChanged: (value) {
@@ -49,7 +56,6 @@ class _KonversiUangState extends State<KonversiUang> {
               });
             },
           ),
-
           const SizedBox(height: 16.0),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -58,13 +64,14 @@ class _KonversiUangState extends State<KonversiUang> {
                 'From: IDR',
                 style: TextStyle(
                   fontWeight: FontWeight.w700,
+                  fontSize: 16
                 ),
               ),
               Row(
                 children: [
                   const Text(
                     "To: ",
-                    style: TextStyle(fontWeight: FontWeight.w700),
+                    style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
                   ),
                   const SizedBox(width: 16.0),
                   ClipRRect(
@@ -78,7 +85,7 @@ class _KonversiUangState extends State<KonversiUang> {
                             child: Container(
                               padding: const EdgeInsets.symmetric(
                                   vertical: 8, horizontal: 16),
-                              child: Text(currency),
+                              child: Text(currency, style: TextStyle(fontSize: 16),),
                             ));
                       }).toList(),
                       onChanged: (newValue) {
@@ -111,7 +118,8 @@ class _KonversiUangState extends State<KonversiUang> {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15.0),
                     ),
-                    backgroundColor: Colors.transparent, // Atur menjadi transparan agar dapat menampilkan gradasi di dalam container
+                    backgroundColor: Colors.transparent,
+                    // Atur menjadi transparan agar dapat menampilkan gradasi di dalam container
                     contentPadding: EdgeInsets.zero,
                     content: Container(
                       decoration: BoxDecoration(
@@ -130,15 +138,17 @@ class _KonversiUangState extends State<KonversiUang> {
                             child: Text(
                               "Hasil Konversi",
                               style: TextStyle(
-                                fontWeight: FontWeight.w500, fontSize: 20, color: Colors.white
-                              ),
+                                  fontWeight: FontWeight.w500,
+                                  fontSize: 20,
+                                  color: Colors.white),
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(16.0),
                             child: Text(
                               'Rp$formattedAmount adalah $formattedResult $selectedCurrency',
-                              style: TextStyle(fontSize: 18, color: Colors.white),
+                              style:
+                                  TextStyle(fontSize: 18, color: Colors.white),
                             ),
                           ),
                           ButtonBar(
@@ -147,7 +157,12 @@ class _KonversiUangState extends State<KonversiUang> {
                                 onPressed: () {
                                   Navigator.of(context).pop();
                                 },
-                                child: const Text('OK', style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),),
+                                child: const Text(
+                                  'OK',
+                                  style: TextStyle(
+                                      color: Colors.green,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ],
                           ),
@@ -159,7 +174,7 @@ class _KonversiUangState extends State<KonversiUang> {
               );
             },
             child:
-            const Text('Konversi', style: TextStyle(color: Colors.white)),
+                const Text('Konversi', style: TextStyle(color: Colors.white, fontSize: 15)),
           ),
         ],
       ),

@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:news/main.dart';
 import 'package:news/pages/register.dart';
-import 'package:news/partials/button_login.dart';
 import 'package:news/partials/input_login.dart';
 
 class Login extends StatefulWidget {
@@ -23,7 +22,7 @@ class _LoginState extends State<Login> {
   Future<void> login(String username, String password) async {
     try {
       final response = await post(
-        Uri.parse("http://192.168.0.205/news/login.php"),
+        Uri.parse("http://192.168.174.162/news/login.php"),
         headers: {
           "Access-Control-Allow-Origin": "*",
         },
@@ -160,17 +159,23 @@ class _LoginState extends State<Login> {
                 const SizedBox(
                   height: 30,
                 ),
-                ButtonLogin(
-                  onpress: () async {
-                    login(usernameController.text, passwordController.text);
+                ElevatedButton(
+                  onPressed: () {
+                    login(
+                      usernameController.text,
+                      passwordController.text,
+                    );
                   },
-                  fore: Colors.white,
-                  back: Colors.pink,
-                  side: Colors.grey,
-                  title: Text(
-                    "Login".toUpperCase(),
-                    style: const TextStyle(fontFamily: 'MontserratSemi'),
-                    textAlign: TextAlign.center,
+                  style: ElevatedButton.styleFrom(
+                    primary: Colors.pink, // Warna latar belakang (pink)
+                    onPrimary: Colors.white, // Warna teks (putih)
+                    side: BorderSide(color: Colors.white), // Warna garis tepi (putih)
+                  ),
+                  child: Text(
+                    "LOGIN",
+                    style: TextStyle(
+                      fontFamily: "MontserratSemi",
+                    ),
                   ),
                 ),
                 const SizedBox(

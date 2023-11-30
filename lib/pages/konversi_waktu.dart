@@ -10,22 +10,23 @@ class KonversiWaktu extends StatefulWidget {
 
 class _KonversiWaktuState extends State<KonversiWaktu> {
   DateTime _selectedTime = DateTime.now();
+
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          const Image(
+            image: AssetImage("assets/images/watch.png"),
+            height: 150,
+          ),
+          const SizedBox(height: 40),
           const Text("Konversi Waktu",
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500)),
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
           const SizedBox(
             height: 20,
           ),
-          Text(
-            'Waktu Terpilih: ${DateFormat('HH:mm:ss').format(_selectedTime)} WIB',
-            style: const TextStyle(fontSize: 18),
-          ),
-          const SizedBox(height: 20),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.indigo,
@@ -38,10 +39,20 @@ class _KonversiWaktuState extends State<KonversiWaktu> {
             },
             child: const Text(
               'Pilih Waktu (WIB)',
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.white, fontSize: 15),
             ),
           ),
           const SizedBox(height: 20),
+          Text(
+            'Waktu Terpilih: ${DateFormat('HH:mm:ss').format(_selectedTime)} WIB',
+            style: const TextStyle(fontSize: 18),
+          ),
+          const SizedBox(height: 40),
+          Text(
+            'Hasil Konversi:',
+            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+          ),
+          const SizedBox(height: 10),
           _buildConvertedTimes(),
         ],
       ),

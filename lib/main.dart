@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:news/constant/constant.dart';
 import 'package:news/pages/konversi_uang.dart';
 import 'package:news/pages/konversi_waktu.dart';
 import 'package:news/pages/login.dart';
@@ -207,8 +206,8 @@ class _MyHomePageState extends State<MyHomePage> {
           child: BottomNavigationBar(
               selectedLabelStyle: const TextStyle(fontSize: 12),
               currentIndex: selectedItem,
-              selectedItemColor: myBlue,
-              unselectedItemColor: myGreyBottom,
+              selectedItemColor: Color(0xff006DFF),
+              unselectedItemColor: Color(0xff9698A0),
               onTap: onItemTapped,
               iconSize: 20,
               items: [

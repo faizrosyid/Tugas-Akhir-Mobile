@@ -2,9 +2,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
-import 'package:news/main.dart';
 import 'package:news/pages/login.dart';
-import 'package:news/partials/button_login.dart';
 import 'package:news/partials/input_login.dart';
 
 
@@ -25,7 +23,7 @@ class _RegisterState extends State<Register> {
   Future<void> register(String name, String username, String password) async {
     try {
       final response = await post(
-        Uri.parse("http://192.168.0.205/news/register.php"), // Ubah endpoint ke register.php
+        Uri.parse("http://192.168.174.162/news/register.php"), // Ubah endpoint ke register.php
         headers: {
           "Content-Type": "application/x-www-form-urlencoded", // Atur tipe konten yang sesuai
         },
@@ -212,17 +210,24 @@ class _RegisterState extends State<Register> {
                 const SizedBox(
                   height: 30,
                 ),
-                ButtonLogin(
-                  onpress: () async {
-                    register(nameController.text, usernameController.text, passwordController.text);
+                ElevatedButton(
+                  onPressed: () {
+                    register(
+                      nameController.text,
+                      usernameController.text,
+                      passwordController.text,
+                    );
                   },
-                  fore: Colors.white,
-                  back: Colors.pink,
-                  side: Colors.grey,
-                  title: Text(
-                    "Register".toUpperCase(),
-                    style: const TextStyle(fontFamily: 'MontserratSemi'),
-                    textAlign: TextAlign.center,
+                  style: ElevatedButton.styleFrom(
+                    primary: Colors.pink, // Warna latar belakang (pink)
+                    onPrimary: Colors.white, // Warna teks (putih)
+                    side: BorderSide(color: Colors.white), // Warna garis tepi (putih)
+                  ),
+                  child: Text(
+                    "REGISTER",
+                    style: TextStyle(
+                      fontFamily: "MontserratSemi",
+                    ),
                   ),
                 ),
                 const SizedBox(
