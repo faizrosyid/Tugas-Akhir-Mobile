@@ -72,7 +72,7 @@ class DetailPage extends StatelessWidget {
                 const SizedBox(
                   height: 10,
                 ),
-                Text("$tanggalWaktu WIB", style: const TextStyle(fontSize: 12)),
+                Text("$tanggalWaktu UTC", style: const TextStyle(fontSize: 12)),
                 const SizedBox(
                   height: 20,
                 ),

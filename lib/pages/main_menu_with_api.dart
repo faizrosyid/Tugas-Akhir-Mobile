@@ -10,14 +10,14 @@ class MainMenuApi extends StatefulWidget {
 }
 
 class _MainMenuApiState extends State<MainMenuApi> {
-  late Future<List<News>> futureNews;
-  late Future<List<News>> futureTechNews;
+  late Future<List<News>> newsTerbaru;
+  late Future<List<News>> newsPopuler;
 
   @override
   void initState() {
     super.initState();
-    futureNews = fetchStudents();
-    futureTechNews = fetchTechNews();
+    newsTerbaru = getTerbaru();
+    newsPopuler = getPopuler();
   }
 
   @override
@@ -29,7 +29,6 @@ class _MainMenuApiState extends State<MainMenuApi> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Container(),
               const Text(
                 "Berita Terbaru",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
@@ -37,12 +36,12 @@ class _MainMenuApiState extends State<MainMenuApi> {
               SizedBox(
                 height: 270,
                 child: FutureBuilder<List<News>>(
-                  future: futureTechNews, // Menggunakan futureTechNews untuk Berita Terbaru
+                  future: newsTerbaru,
                   builder: (context, snapshot) {
                     if (snapshot.hasData) {
                       return ListView.builder(
                         scrollDirection: Axis.horizontal,
-                        itemCount: snapshot.data!.length > 10 ? 10 : snapshot.data!.length,
+                        itemCount: snapshot.data!.length > 13 ? 13 : snapshot.data!.length,
                         itemBuilder: (context, index) {
                           return beritaTerbaru(
                             context,
@@ -51,6 +50,7 @@ class _MainMenuApiState extends State<MainMenuApi> {
                             snapshot.data![index].urlToImage!,
                             snapshot.data![index].publishedAt!,
                             snapshot.data![index].url!,
+                            snapshot.data![index].content!,
                           );
                         },
                       );
@@ -72,7 +72,7 @@ class _MainMenuApiState extends State<MainMenuApi> {
               Expanded(
                 child: SizedBox(
                   child: FutureBuilder<List<News>>(
-                    future: futureNews,
+                    future: newsPopuler,
                     builder: (context, snapshot) {
                       if (snapshot.hasData) {
                         return ListView.builder(
@@ -85,6 +85,7 @@ class _MainMenuApiState extends State<MainMenuApi> {
                               snapshot.data![index].urlToImage!,
                               snapshot.data![index].publishedAt!,
                               snapshot.data![index].url!,
+                              snapshot.data![index].content!
                             );
                           },
                         );
@@ -104,75 +105,15 @@ class _MainMenuApiState extends State<MainMenuApi> {
     );
   }
 
-  GestureDetector beritaPopuler(BuildContext context, String title, String desc,
-      String image, String publishedAt, String url) {
-    return GestureDetector(
-      onTap: () => Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => DetailPage(
-            title: title,
-            content: desc,
-            image: image,
-            publishedAt: publishedAt,
-            url: url,
-          ),
-        ),
-      ),
-      child: Card(
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Row(
-            children: [
-              SizedBox(
-                height: 100,
-                width: 140,
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: Image.network(
-                    image,
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-              const SizedBox(
-                width: 10,
-              ),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      title,
-                      style: const TextStyle(fontWeight: FontWeight.w500),
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                    Text(
-                      desc,
-                      style: TextStyle(fontSize: 12, color: Colors.grey.shade600),
-                      maxLines: 3,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
   GestureDetector beritaTerbaru(BuildContext context, String title, String desc,
-      String image, String publishedAt, String url) {
+      String image, String publishedAt, String url, String content) {
     return GestureDetector(
       onTap: () {
         Navigator.push(context, MaterialPageRoute(
           builder: (context) {
             return DetailPage(
               title: title,
-              content: desc,
+              content: content,
               image: image,
               publishedAt: publishedAt,
               url: url,
@@ -230,4 +171,65 @@ class _MainMenuApiState extends State<MainMenuApi> {
       ),
     );
   }
+
+  GestureDetector beritaPopuler(BuildContext context, String title, String desc,
+      String image, String publishedAt, String url, String content) {
+    return GestureDetector(
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => DetailPage(
+            title: title,
+            content: content,
+            image: image,
+            publishedAt: publishedAt,
+            url: url,
+          ),
+        ),
+      ),
+      child: Card(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Row(
+            children: [
+              SizedBox(
+                height: 100,
+                width: 140,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: Image.network(
+                    image,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: const TextStyle(fontWeight: FontWeight.w500),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                    Text(
+                      desc,
+                      style: TextStyle(fontSize: 12, color: Colors.grey.shade600),
+                      maxLines: 3,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
 }

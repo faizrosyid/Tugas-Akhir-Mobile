@@ -23,7 +23,7 @@ class _RegisterState extends State<Register> {
   Future<void> register(String name, String username, String password) async {
     try {
       final response = await post(
-        Uri.parse("http://192.168.174.162/news/register.php"), // Ubah endpoint ke register.php
+        Uri.parse("http://192.168.0.11/news/register.php"), // Ubah endpoint ke register.php
         headers: {
           "Content-Type": "application/x-www-form-urlencoded", // Atur tipe konten yang sesuai
         },

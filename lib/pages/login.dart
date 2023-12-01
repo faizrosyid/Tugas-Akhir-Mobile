@@ -22,7 +22,7 @@ class _LoginState extends State<Login> {
   Future<void> login(String username, String password) async {
     try {
       final response = await post(
-        Uri.parse("http://192.168.174.162/news/login.php"),
+        Uri.parse("http://192.168.0.11/news/login.php"),
         headers: {
           "Access-Control-Allow-Origin": "*",
         },
@@ -187,7 +187,7 @@ class _LoginState extends State<Login> {
                       context,
                       MaterialPageRoute(
                           builder: (context) =>
-                              Register()), // Ganti Register() dengan halaman register yang sesuai
+                              Register()),
                     );
                   },
                   child: Text(

@@ -19,7 +19,7 @@ class _KonversiWaktuState extends State<KonversiWaktu> {
         children: [
           const Image(
             image: AssetImage("assets/images/watch.png"),
-            height: 150,
+            height: 130,
           ),
           const SizedBox(height: 40),
           const Text("Konversi Waktu",

@@ -1,31 +1,31 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-Future<List<News>> fetchStudents() async {
+Future<List<News>> getTerbaru() async {
   final response = await http.get(Uri.parse(
-      'https://newsapi.org/v2/everything?q=apple&from=2023-11-23&to=2023-11-23&sortBy=popularity&apiKey=1fdc03cd06644ce98b0f5e28fd933b62'));
+      'https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=1fdc03cd06644ce98b0f5e28fd933b62'));
 
   if (response.statusCode == 200) {
     final Map<String, dynamic> jsonResponse = json.decode(response.body);
     final List<dynamic> jsonData = jsonResponse['articles'];
-    List<News> students = jsonData.map((e) => News.fromJson(e)).toList();
-    return students;
+    List<News> terbaru = jsonData.map((e) => News.fromJson(e)).toList();
+    return terbaru;
   } else {
-    throw Exception('Failed to load students');
+    throw Exception('Gagal Memuat Berita Terbaru');
   }
 }
 
-Future<List<News>> fetchTechNews() async {
+Future<List<News>> getPopuler() async {
   final response = await http.get(Uri.parse(
-      'https://newsapi.org/v2/everything?q=apple&from=2023-11-24&to=2023-11-24&sortBy=popularity&apiKey=1fdc03cd06644ce98b0f5e28fd933b62'));
+      'https://newsapi.org/v2/everything?q=technology&from=2023-11-24&to=2023-11-28&sortBy=popularity&apiKey=1fdc03cd06644ce98b0f5e28fd933b62'));
 
   if (response.statusCode == 200) {
     final Map<String, dynamic> jsonResponse = json.decode(response.body);
     final List<dynamic> jsonData = jsonResponse['articles'];
-    List<News> techNews = jsonData.map((e) => News.fromJson(e)).toList();
-    return techNews;
+    List<News> populer = jsonData.map((e) => News.fromJson(e)).toList();
+    return populer;
   } else {
-    throw Exception('Failed to load tech news');
+    throw Exception('Gagal memuat Berita Populer');
   }
 }
 

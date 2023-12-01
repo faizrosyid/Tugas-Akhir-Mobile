@@ -17,7 +17,6 @@ class _KonversiUangState extends State<KonversiUang> {
     'EUR': 16934.65,
     'GBP': 19362.01,
     'JPY': 0.0095,
-    // Tambahkan mata uang lain sesuai kebutuhan
   };
 
   @override
@@ -47,7 +46,7 @@ class _KonversiUangState extends State<KonversiUang> {
               labelText: 'Masukkan Nominal',
               border: OutlineInputBorder(
                 borderRadius:
-                    BorderRadius.circular(15.0), // Menambahkan border radius
+                    BorderRadius.circular(15.0),
               ),
             ),
             onChanged: (value) {
@@ -119,7 +118,6 @@ class _KonversiUangState extends State<KonversiUang> {
                       borderRadius: BorderRadius.circular(15.0),
                     ),
                     backgroundColor: Colors.transparent,
-                    // Atur menjadi transparan agar dapat menampilkan gradasi di dalam container
                     contentPadding: EdgeInsets.zero,
                     content: Container(
                       decoration: BoxDecoration(
